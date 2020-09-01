@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Company Name</title>
+        <meta name="description" content="Mercotrade Corporation, your solution for international shipping. Purchasing agents and freight forwarders in the US. " />
+        <meta name="author" content="Mercotrade Corporation" />
+        <title>Mercotrade Corporation</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -22,7 +22,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Company Name 2</a>
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Mercotrade Corporation</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
@@ -55,8 +55,7 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="text-white mt-0">Reliable and strategic partner</h2>
                         <hr class="divider light my-4" />
-                        <p class="text-white-50 mb-4">We are a company with great experience in international trade with develop focused offices in Uruguay and United Arab Emirates that stimulate and enhance business between Mercosur countries (Argentina, Brazil, Paraguay and Uruguay and its associates Chile and Bolivia) as well as  the countries of the Gulf Cooperation Council (Saudi Arabia, Bahrain, United Arab Emirates, Kuwait, Oman and Qatar).
-                            Company Name presents an active presence and knowledge regarding practices, regulations and opportunities the Mercosur and GCC countries provide, that allow our customers to trade products through effective and clear  business transactions while having the possibility to use our financial, administrative and commercial structure and international logistic operations in the Mercosur and GCC countries.</p>
+                        <p class="text-white-50 mb-4">We are a company with extensive experience in international trade and knowledge regarding practices, regulations and opportunities. Our experience allows our clients to market products through effective and clear commercial transactions, having the possibility of using our structure and financial, administrative and commercial operations.</p>
                         <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">Get Started!</a>
                     </div>
                 </div>
@@ -100,13 +99,6 @@
                 </div>
             </div>
         </section>
-        <!-- Call to action -->
-<!--         <section class="page-section bg-dark text-white">
-            <div class="container text-center">
-                <h2 class="mb-4">Free Download at Start Bootstrap!</h2>
-                <a class="btn btn-light btn-xl" href="https://startbootstrap.com/themes/creative/">Download Now!</a>
-            </div>
-        </section> -->
         <!-- Contact-->
         <section class="page-section" id="contact">
             <div class="container">
@@ -114,48 +106,34 @@
                     <div class="col-lg-8 text-center">
                         <h2 class="mt-0">Contact us</h2>
                         <hr class="divider my-4" />
-                        <p class="text-muted mb-5">Send us an email and we will get back to you as soon as possible.</p>
+                        <p class="text-muted mb-5">Send us a message and we will get back as soon as possible.</p>
                     </div>
                 </div>
                 <div class="row justify-content-center">
-
-          <!--FORM CONTACTO-->
-          <form method="post" name="fcontacto" id="fcontacto" action="send.php">
-            <div style="padding-bottom:20px;">
-                <label for="name">Su nombre:</label>
-                <input type="text" name="name" id="name" class="form-control" title="Nombre" required>
-            </div>
-            <div style="padding-bottom:20px;">
-                <label for="email">Un e-mail de contacto:</label>
-                <input type="text" name="email" id="email" class="form-control" required>
-            </div>
-            <div style="padding-bottom:20px;">
-                <label for="mensaje">Háganos llegar su mensaje:</label>
-                <textarea name="mensaje" id="mensaje" class="form-control" required></textarea>
-            </div>
-    
-
-
-            <input type="submit" class="btn btn-primary js-scroll-trigger" value="Enviar" style="margin-top:10px;font-size:1.5em;">
-            <div id="respuesta" style="display: none;"></div>
-          </form>
-          <!--FORM CONTACTO-->
-                
-<!--                     <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-                        <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-                        <div>+1 (555) 123-4567</div>
-                    </div>
-                    <div class="col-lg-4 mr-auto text-center">
-                        <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                        Make sure to change the email address in BOTH the anchor text and the link target below!-->
-                        <!--<a class="d-block" href="mailto:contact@change.com">contact@change.com</a>
-                    </div> -->
+                    <!--FORM CONTACTO-->
+                    <form method="post" action="send.php">
+                    <div class="small text-center text-muted" style="padding-bottom:20px;">All fields are required.</div>
+                        <div style="padding-bottom:20px;">
+                            <label for="name">Your name:</label>
+                            <input type="text" name="name" id="name" class="form-control" title="Complete with your name" required>
+                        </div>
+                        <div style="padding-bottom:20px;">
+                            <label for="email">A contact email:</label>
+                            <input type="text" name="email" id="email" class="form-control" title="Complete with your email" required>
+                        </div>
+                        <div style="padding-bottom:20px;">
+                            <label for="message">Send us your message:</label>
+                            <textarea name="message" id="message" class="form-control" required></textarea>
+                        </div>
+                        <input type="submit" class="btn btn-primary js-scroll-trigger" value="Send" style="margin-top:10px;font-size:1.5em;">
+                    </form>
+                    <!--FORM CONTACTO-->
                 </div>
             </div>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
-            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Company Name</div></div>
+            <div class="container"><div class="small text-center text-muted">Copyright © 2020 - Mercotrade Corporation</div></div>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
